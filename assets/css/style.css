@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: url('../images/space.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.main_title {
+    color: #00ffff; 
+    font-size:50px;
+    transition: color 1s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.main_title:hover {
+    color: rgb(38, 0, 255);
+}
+
+.background{
+    height: 100%;
+    width: auto;
+}
+
+
